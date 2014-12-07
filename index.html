@@ -9,14 +9,17 @@
         <!-- activate if you need jQuery
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
         -->
-        <script type="text/javascript" src="teamParser.js"></script>
+        <script type="text/javascript" src="teamParser.js">
+            function setOutput(out) {
+                document.getElementById("outputfield").value = out;
+            }
+        </script>
+        <script type="text/javascript">
+            function setOutput(out) {
+                document.getElementById("outputfield").value = out;
+            }
+        </script>
     </head>
-
-    <script type="text/javascript">
-        function setOutput(out) {
-            document.getElementById("outputfield").value = out;
-        }
-    </script>
 
     <br/>
 
