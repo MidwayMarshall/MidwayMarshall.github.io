@@ -15,7 +15,6 @@
     <script type="text/javascript">
         function setOutput(out) {
             document.getElementById("outputfield").value = out;
-            document.getElementById("outputText").value = out;
         }
     </script>
 
@@ -24,10 +23,10 @@
     <div id="main">
         <form name="thisform" action="" method="get">
             <h3>PC .tp to Android .xml</h3>
-            <label for="inputfield">Import:</label>
+            <label for="inputfield"></label>
             <textarea name="inputbox" id="inputfield" cols="100" rows="20"></textarea><br/>
             <input type="button" name="button" value="Convert!" onclick="setOutput(this.form.inputbox.value)"/><br/>
-            <label for="outputfield">Import:</label>
+            <label for="outputfield"></label>
             <textarea name="outputText" id="outputfield" cols="100" rows="20"></textarea><br/>
         </form>
     </div>
