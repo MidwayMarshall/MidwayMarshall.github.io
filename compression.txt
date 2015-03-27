@@ -1,0 +1,10 @@
+Before compression
+Teambuilder 50 MB
+Battle 22-24 MB
+
+Resource folder 22.7 MB -> 11.6 MB
+
+
+After compression
+Teambuilder 48 MB
+Battle 21-22 MB
